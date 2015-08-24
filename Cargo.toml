@@ -2,3 +2,6 @@
 name = "github-writer"
 version = "0.1.0"
 authors = ["Paul Dib <paul.dib@orange.fr>"]
+
+[dependencies]
+time = "0.1"
