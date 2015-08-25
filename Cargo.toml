@@ -5,3 +5,4 @@ authors = ["Paul Dib <paul.dib@orange.fr>"]
 
 [dependencies]
 time = "0.1"
+git2 = "0.3"
