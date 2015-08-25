@@ -214,7 +214,22 @@ impl CharGrid {
                            vec![1, 0, 0, 0],
                            vec![1, 1, 1, 0],
                            vec![0, 0, 0, 0]]);
-        
+
+        g.insert('!', vec![vec![0, 0, 0],
+                           vec![0, 1, 0],
+                           vec![0, 1, 0],
+                           vec![0, 1, 0],
+                           vec![0, 0, 0],
+                           vec![0, 1, 0],
+                           vec![0, 0, 0]]);
+
+        g.insert(',', vec![vec![0, 0, 0],
+                           vec![0, 0, 0],
+                           vec![0, 0, 0],
+                           vec![0, 0, 0],
+                           vec![0, 1, 0],
+                           vec![0, 1, 0],
+                           vec![1, 0, 0]]);
         CharGrid {
             grid_map: g
         }
